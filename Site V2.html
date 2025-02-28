@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelly CHAVANT's website</title>
+  
+  <!-- Importing Google Fonts -->
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+    /* General style rules for fonts and colors */
+    body {
+      font-family: 'Lora', serif;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Banner (Hero section) component styles */
+    .banner {
+      background-image:
+        linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 50%),
+        url('https://www.darphin.fr/media/export/cms/jdo_eslaunch_launchdt.jpg'); /* Image de la bannière DARPHIN */
+      background-size: cover;
+      background-position: center;
+      padding-top: 150px;
+      padding-bottom: 150px;
+      text-align: center;
+      color: white;
+    }
+
+    .banner h1 {
+      font-size: 50px;
+    }
+
+    .banner h2 {
+      font-size: 30px;
+      font-weight: lighter;
+      opacity: 0.8;
+    }
+
+    /* Section Title and Subtitle styles */
+    .content {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .content h1 {
+      font-size: 36px;
+      color: #333;
+    }
+
+    .content h2 {
+      font-size: 24px;
+      color: #666;
+    }
+
+    /* Profile Card styles */
+    .profile-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+      padding: 20px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile-card .cta-btn {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    .profile-card .cta-btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Typeform container */
+    .typeform-container {
+      margin: 50px 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .typeform-container .cta-btn {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .typeform-container .cta-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .typeform-iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 500px;
+      border: none;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <div class="container">
+      <h1>Mon experience chez DARPHIN</h1>
+      <h2>Pour ma dernière année d'alternance</h2>
+    </div>
+  </div>
+
+  <!-- Content Section (Title & Subtitle) -->
+  <div class="content">
+    <h1>Pour en savoir plus sur mon poste</h1>
+    <h2>Rendez-vous sur mon profil linkedin : </h2>
+  </div>
+
+  <!-- Profile Card Section -->
+  <div class="profile-card">
+    <img src="https://media.licdn.com/dms/image/v2/C4E03AQGMh_cgcukZdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1601729276864?e=2147483647&v=beta&t=-PQ8TnqVSzGobWotIorWbgSw2Q35euSzmvOQ5LHOHZw" alt="Photo de profil linkdedin">
+    <div>
+      <h3>Kelly Chavant</h3>
+      <p>Global Commercial Innovation Marketing Project Assistant - DARPHIN</p>
+      <a href="https://www.linkedin.com/in/kelly-chavant/" class="cta-btn">Découvrir mon profil !</a>
+    </div>
+  </div>
+
+  <!-- Typeform Integration -->
+  <div class="typeform-container">
+    <h3>Envie d'en découvrir plus sur la marque ? Répondez à ce petit questionnaire ! </h3>
+    <a href="https://0ncp334j3l4.typeform.com/to/q9dkhgz7" class="cta-btn" target="_blank">Répondez au questionnaire !</a>
+  </div>
+
+</body>
+</html>
